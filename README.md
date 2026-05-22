@@ -11,12 +11,10 @@
 ---
 
 <p align="center">
-
-<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge" />
-<img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Built%20With-Next.js%20%7C%20PostgreSQL-black?style=for-the-badge" />
-
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Built%20With-Next.js%20%7C%20PostgreSQL-black?style=for-the-badge" />
 </p>
 
 ---
@@ -67,7 +65,7 @@ Instead of relying on fragmented information across multiple outdated websites, 
 # 📂 Project Structure
 
 ```plaintext
-THE AI SIGNAL - UNSTOP/
+Aspiron/
 ├── app/
 │   ├── api/                  # API routes (colleges, compare, predict, cities)
 │   ├── college/              # Dynamic college profiles view
@@ -91,10 +89,10 @@ THE AI SIGNAL - UNSTOP/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Cipher-Shadow-IR/School-Database-management-System.git
+git clone https://github.com/Cipher-Shadow-IR/Aspiron.git
 
 # Enter folder
-cd "THE AI SIGNAL - UNSTOP"
+cd "Aspiron"
 
 # Install dependencies
 npm install
@@ -193,45 +191,21 @@ npm run build
 
 ---
 
-# 🤝 Contributing
-
-Pull requests are welcome.
-
-Steps:
-
-1. Fork repo
-2. Create branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push (`git push origin feature/AmazingFeature`)
-5. Open PR
-
----
-
 # 📜 License
 
-MIT License
+Apache-2.0 License
 
 ---
 
-# 👨‍💻 Author
+## 💬 Author
 
 <p align="center">
-
-**Ishaan Ray**  
-*Full Stack Engineer*
-
-<a href="https://github.com/Cipher-Shadow-IR">
-<img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" />
-</a>
-
-<a href="https://linkedin.com/in/ishaan-ray-cs">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
-</a>
-
-<a href="https://galaxir.vercel.app">
-<img src="https://img.shields.io/badge/Portfolio-Visit-purple?style=for-the-badge&logo=vercel" />
-</a>
-
+  <img src="https://img.icons8.com/fluency/48/brain.png" /><br><br>
+  <b>Built by Ishaan Ray (Cipher Shadow IR)</b><br>
+  <i>"Your Compass to Academic Success, Choose wisely!”</i><br><br>
+  <a href="https://github.com/Cipher-Shadow-IR" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Cipher%20Shadow%20IR-181717?style=for-the-badge&logo=github" />
+  </a>
 </p>
 
 ---
