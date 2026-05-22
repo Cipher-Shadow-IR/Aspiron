@@ -1,0 +1,37 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model College {
+  id                  Int              @id @default(autoincrement())
+  name                String
+  city                String
+  state               String
+  fees                Int              // annual fees in INR
+  rating              Float            // rating out of 5.0
+  placementPercentage Float            // placement percentage e.g. 85.5
+  avgPackage          Float            // average package in LPA
+  highestPackage      Float            // highest package in LPA
+  courses             Json             // array of courses e.g. ["B.Tech Computer Science", "B.Tech IT"]
+  description         String           @db.Text
+  examAccepted        Json             // array of exams accepted e.g. ["JEE Main", "GUJCET"]
+  imageUrl            String           // college card image URL
+  createdAt           DateTime         @default(now())
+  updatedAt           DateTime         @updatedAt
+  predictionRules     PredictionRule[]
+}
+
+model PredictionRule {
+  id        Int      @id @default(autoincrement())
+  exam      String   // e.g. "JEE Main" or "GUJCET"
+  minRank   Int      // minimum rank (inclusive)
+  maxRank   Int      // maximum rank (inclusive)
+  collegeId Int
+  college   College  @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+}
